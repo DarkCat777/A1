@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Ve viendo lo que estás pidiendo">
+        <menu>
+            <item
+                android:id="@+id/carrito"
+                android:icon="@drawable/carrito2"
+                android:title="Carrito de Compras" />
+            <item
+                android:id="@+id/llego"
+                android:icon="@drawable/estrella"
+                android:title="Avísanos si llego tu pedido" />
+        </menu>
+    </item>
+
+    <item android:title="Pide lo que gustes:">
+        <menu>
+            <item
+                android:id="@+id/menu2"
+                android:icon="@drawable/icono_pollo3"
+                android:title="Menu" />
+            <item
+                android:id="@+id/promociones"
+                android:icon="@drawable/icono_promociones"
+                android:title="Promociones" />
+        </menu>
+    </item>
+    <item android:title="Conócenos">
+        <menu>
+            <item
+                android:id="@+id/nosotros"
+                android:icon="@drawable/nosotros4"
+                android:title="Nosotros" />
+
+            <item
+                android:id="@+id/direcciones"
+                android:icon="@drawable/icono_lugar"
+                android:title="Direcciones" />
+        </menu>
+    </item>
+
+    <item android:title="Conéctate con nuestra familia">
+        <menu>
+            <item
+                android:id="@+id/iniciar_sesion"
+                android:icon="@drawable/icono_iniciar2"
+                android:title="Iniciar Sesion" />
+            <item
+                android:id="@+id/cerrar_sesion"
+                android:icon="@drawable/icono_cerrar"
+                android:title="Cerrar Sesion" />
+        </menu>
+    </item>
+
+</menu>

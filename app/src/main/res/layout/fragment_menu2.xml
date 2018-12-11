@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color3"
+    tools:context=".Menu2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp">
+
+                <ImageView
+                    android:id="@+id/plato1"
+                    android:layout_width="155dp"
+                    android:layout_height="142dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/plato2" />
+
+                <TextView
+                    android:id="@+id/plato_1"
+                    android:layout_width="94dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="83dp"
+                    android:text="Familar"
+                    android:textColor="@color/color4"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/precio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="15dp"
+                    android:text="S/. 50"
+                    android:textColor="@color/color4"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="175dp"
+                    android:layout_height="88dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="2dp"
+                    android:text="▓ 1 pollo entero \n▓ Una porción de papas \n▓ Gaseosa de 3 litros \n▓ Ensalada familiar "
+                    android:textColor="@color/color4" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="167dp"
+                    android:layout_height="37dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="11dp"
+                    android:layout_marginBottom="23dp"
+                    android:text="Agregar a Carrito"
+                    tools:background="@color/color1"
+                    tools:backgroundTint="@color/color1"
+                    tools:textColor="@color/color3"
+                    tools:textColorHighlight="@color/color3"
+                    tools:textColorHint="@color/color3"  />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp">
+
+                <ImageView
+                    android:id="@+id/plato2"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/plato6" />
+
+                <TextView
+                    android:id="@+id/plato_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="100dp"
+                    android:text="Evento"
+                    android:textColor="@color/color4"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/precio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="15dp"
+                    android:text="S/. 40"
+                    android:textColor="@color/color4"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/descripcion2"
+                    android:layout_width="175dp"
+                    android:layout_height="88dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="2dp"
+                    android:text="▓ 1 pollo entero \n▓ Una porción de papas \n▓ Ensalada familiar\n "
+                    android:textColor="@color/color4" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="167dp"
+                    android:layout_height="37dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="11dp"
+                    android:layout_marginBottom="23dp"
+                    android:text="Agregar a Carrito"
+                    tools:background="@color/color1"
+                    tools:backgroundTint="@color/color1"
+                    tools:textColor="@color/color3"
+                    tools:textColorHighlight="@color/color3"
+                    tools:textColorHint="@color/color3"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp">
+
+                <ImageView
+                    android:id="@+id/plato3"
+                    android:layout_width="165dp"
+                    android:layout_height="148dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/plato4" />
+
+                <TextView
+                    android:id="@+id/plato_3"
+                    android:layout_width="102dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="72dp"
+                    android:text="Niños"
+                    android:textColor="@color/color4"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/precio3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="15dp"
+                    android:text="S/. 28"
+                    android:textColor="@color/color4"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/descripcion3"
+                    android:layout_width="175dp"
+                    android:layout_height="88dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="2dp"
+                    android:text="▓ 1/4 de pollo \n▓ Una mini porción de papas \n▓ Ensalada kids\n "
+                    android:textColor="@color/color4" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="167dp"
+                    android:layout_height="37dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="11dp"
+                    android:layout_marginBottom="23dp"
+                    android:text="Agregar a Carrito"
+                    tools:background="@color/color1"
+                    tools:backgroundTint="@color/color1"
+                    tools:textColor="@color/color3"
+                    tools:textColorHighlight="@color/color3"
+                    tools:textColorHint="@color/color3"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp">
+
+                <ImageView
+                    android:id="@+id/plato4"
+                    android:layout_width="165dp"
+                    android:layout_height="160dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/plato3" />
+
+                <TextView
+                    android:id="@+id/plato_4"
+                    android:layout_width="111dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="63dp"
+                    android:text="Solitario"
+                    android:textColor="@color/color4"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/precio4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="13dp"
+                    android:text="S/. 28"
+                    android:textColor="@color/color4"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/descripcion4"
+                    android:layout_width="175dp"
+                    android:layout_height="88dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="2dp"
+                    android:text="▓ 1/4 de pollo \n▓ Una porción de papas \n▓ Ensalada\n▓ Gaseosa Personal"
+                    android:textColor="@color/color4" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="167dp"
+                    android:layout_height="37dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="11dp"
+                    android:layout_marginBottom="23dp"
+                    android:text="Agregar a Carrito"
+                    tools:background="@color/color1"
+                    tools:backgroundTint="@color/color1"
+                    tools:textColor="@color/color3"
+                    tools:textColorHighlight="@color/color3"
+                    tools:textColorHint="@color/color3" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

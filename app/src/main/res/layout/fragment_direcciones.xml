@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color3"
+    android:orientation="vertical"
+    tools:context=".Direcciones">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        >
+
+        <ImageView
+            android:id="@+id/localuno"
+            android:layout_width="150dp"
+            android:layout_height="500dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/local1" />
+
+        <TextView
+            android:id="@+id/Lima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="80dp"
+            android:text="Lima"
+            android:textColor="@color/color4"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Direccion1"
+            android:layout_width="177dp"
+            android:layout_height="43dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="15dp"
+            android:text="Jiron Montero Rosas 1000, Cercado de Lima 15046"
+            android:textColor="@color/color4" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        >
+
+        <ImageView
+            android:id="@+id/Local2"
+            android:layout_width="150dp"
+            android:layout_height="500dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/local2" />
+
+        <TextView
+            android:id="@+id/arequipa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="55dp"
+            android:text="Arequipa"
+            android:textColor="@color/color4"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/direccion2"
+            android:layout_width="177dp"
+            android:layout_height="43dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/color4"
+            android:text="Av. Victor Andrés Belaunde, Arequipa 04014" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        >
+
+        <ImageView
+            android:id="@+id/local3"
+            android:layout_width="150dp"
+            android:layout_height="500dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/local3" />
+
+        <TextView
+            android:id="@+id/tacna"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="65dp"
+            android:text="Tacna"
+            android:textSize="24dp"
+            android:textColor="@color/color4"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/direccion3"
+            android:layout_width="177dp"
+            android:layout_height="43dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/color4"
+            android:text="Jiron Montero Rosas 1256, Cercado de Tacna 1254" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        >
+
+        <ImageView
+            android:id="@+id/local4"
+            android:layout_width="150dp"
+            android:layout_height="500dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/local4" />
+
+        <TextView
+            android:id="@+id/ica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="75dp"
+            android:text="Ica"
+            android:textSize="24dp"
+            android:textColor="@color/color4"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/direccion4"
+            android:layout_width="177dp"
+            android:layout_height="43dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/color4"
+            android:text="Av Bolognesi 372, Prolongacion Arenales 56" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        >
+
+        <ImageView
+            android:id="@+id/local5"
+            android:layout_width="150dp"
+            android:layout_height="500dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/local5" />
+
+        <TextView
+            android:id="@+id/pisco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="65dp"
+            android:text="Pisco"
+            android:textSize="24dp"
+            android:textColor="@color/color4"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/direccion5"
+            android:layout_width="177dp"
+            android:layout_height="43dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/color4"
+            android:text="Jiron Montero Rosas 1000, Cercado de Lima 15046" />
+
+    </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
